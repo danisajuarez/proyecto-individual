@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+  padding: 19px 103px;
+}
+
+.form {
+  width: 150px; /* Ancho deseado */
+
+  /* Añade margen negativo para mover el botón a la izquierda */
+  margin-left: -20px; /* Ajusta este valor según cuánto quieras moverlo */
+
+  /* Otras propiedades para el botón */
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0a1930;
+  color: #f3f3f3;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.input {
+  width: 20%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  margin: 5px 0; /* Margen exterior */
+  display: block; /* Asegura que el input ocupe su propia línea */
+  border: 1px solid #ccc; /* Borde del input */
+  border-radius: 20px; /* Bordes redondeados */
+  box-sizing: border-box; /* El ancho y alto incluyen el padding y el borde */
+}
+
+.img {
+  width: 150px;
+}

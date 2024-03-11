@@ -1,0 +1,89 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container label {
+  margin-top: 5px;
+  font-family: "Mina", sans-serif;
+  letter-spacing: 4px;
+}
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #0a1930;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.buttonX {
+  padding: 10px 20px;
+  background-color: #0a1930;
+  color: white;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+}
+
+.buttonX:hover {
+  background-color: #c3c3c3;
+}
+.button:hover {
+  background-color: #c3c3c3;
+}
+
+.addTeams {
+  display: flex;
+}
+
+.buttonAdd {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.buttonSubmit {
+  background-color: #0a1930;
+  color: white;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 24px;
+  padding: 13px;
+}
+.buttonSubmit:hover {
+  background-color: #c3c3c3;
+}

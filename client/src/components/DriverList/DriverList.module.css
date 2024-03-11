@@ -1,0 +1,102 @@
+.selects {
+  width: 100%;
+  height: 45px;
+  padding: 14px;
+  text-align: center;
+}
+
+.selectOrder {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0a1930;
+  margin-left: 25px;
+  width: 10%;
+  color: #f3f3f3;
+}
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  font-family: "Mina", sans-serif;
+  color: #0a1930;
+  overflow: hidden;
+  position: relative;
+  width: 350px;
+  height: 450px;
+  max-width: 100%;
+  background-color: #c0c0c0;
+  display: block;
+  text-decoration: none;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 46px;
+}
+
+.cardImagen {
+  position: absolute;
+  top: 101px;
+  left: 59px;
+  width: 145px;
+  height: 157px;
+  object-fit: cover;
+}
+
+.cardContainer {
+  width: calc(33.33% - 20px); /* 3 cards per row with some spacing */
+  margin-bottom: 20px;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  font-weight: 900; /* Negrita extrema */
+  letter-spacing: 12px;
+  position: absolute;
+  transform-origin: bottom right;
+  right: 0;
+  bottom: 0;
+  transform: rotate(-90deg) translateX(100%);
+}
+
+.card p {
+  position: absolute;
+  bottom: 26px;
+  left: 38px;
+  letter-spacing: 6px;
+  right: 80px;
+  font-size: 12px;
+  display: table-caption;
+  overflow-wrap: break-word;
+  border-bottom: 2px solid;
+}
+
+.pagination button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #0a1930;
+  color: #f3f3f3;
+  border: none;
+  margin-left: 8px;
+}
+
+.rectanguloRojo {
+  width: 362px;
+  height: 149px;
+  background-color: red;
+  transform: rotate(270deg);
+  transform-origin: bottom;
+  position: absolute;
+}

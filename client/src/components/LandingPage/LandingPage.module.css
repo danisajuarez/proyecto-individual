@@ -1,0 +1,36 @@
+body {
+  background-color: #010101;
+  color: #f3f3f3;
+  font-family: "El Messiri", sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 109px);
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  padding: 150px;
+}
+
+.texto h1 {
+  font-size: 75px;
+}
+
+.contenedorImg {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+}

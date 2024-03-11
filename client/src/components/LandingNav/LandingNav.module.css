@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 23px;
+  padding: 19px 103px;
+}
+
+.homePage {
+  width: 150px; /* Ancho deseado */
+
+  /* Añade margen negativo para mover el botón a la izquierda */
+  margin-left: -20px; /* Ajusta este valor según cuánto quieras moverlo */
+
+  /* Otras propiedades para el botón */
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0a1930;
+  color: #f3f3f3;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.homePage:hover {
+  background-color: #7c7c7c;
+  transition: background-color 0.5s;
+}
+
+.img {
+  width: 150px;
+}
